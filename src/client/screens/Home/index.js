@@ -11,7 +11,7 @@ export default class Home extends Component {
         < AppBar / >
         <Container style={{ width: '100%' }}>
           <Card.Group centered style={{paddingTop: 80}} >
-          <Card style={{ textAlign: 'center' }}>
+          <Card href='https://github.com/zainfikrih/' style={{ textAlign: 'center' }}>
             <Image src='https://react.semantic-ui.com/assets/images/avatar/large/matthew.png' />
             <Card.Content>
               <Card.Header>
@@ -34,7 +34,7 @@ export default class Home extends Component {
             </Card.Content>
           </Card>
 
-          <Card style={{ textAlign: 'center' }}>
+          <Card href='https://github.com/zainfikrih/' style={{ textAlign: 'center' }}>
             <Image src='https://react.semantic-ui.com/assets/images/avatar/large/matthew.png' />
             <Card.Content>
               <Card.Header>
