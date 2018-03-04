@@ -4,7 +4,7 @@ react boilerplate by @yahyasahaja
 # Usage
 You can clone or fork this repo, have fun!
 
-#Material UI & Semantic UI
+# Material UI & Semantic UI
 'npm install --save material-ui@next'
 'npm add semantic-ui-react'
 
