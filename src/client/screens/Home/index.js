@@ -56,7 +56,7 @@ export default class Home extends Component {
               </a>
             </Card.Content>
           </Card>
-          </Card.Group>
+        </Card.Group>
           
         </Container>
       </div>

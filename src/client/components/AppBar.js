@@ -20,7 +20,7 @@ function SimpleAppBar(props) {
   return ( 
     <div >
       <AppBar position = "fixed"
-        color= "primary" >
+        style={{ backgroundColor: '#00cec9' }} >
         <Toolbar >
           <Typography variant = "title"
             color = "inherit" >
