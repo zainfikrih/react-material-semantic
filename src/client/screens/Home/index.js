@@ -8,9 +8,10 @@ export default class Home extends Component {
   render() {
     return (
       <div>
+        < AppBar / >
         <Container style={{ width: '100%' }}>
-          <AppBar />
-          <Card centered style={{ textAlign: 'center' }}>
+          <Card.Group centered style={{paddingTop: 80}} >
+          <Card style={{ textAlign: 'center' }}>
             <Image src='https://react.semantic-ui.com/assets/images/avatar/large/matthew.png' />
             <Card.Content>
               <Card.Header>
@@ -22,16 +23,41 @@ export default class Home extends Component {
                 </span>
               </Card.Meta>
               <Card.Description>
-                React with Material UI & Semantic UI
+                React Boilerplat with Material UI & Semantic UI
               </Card.Description>
             </Card.Content>
             <Card.Content extra>
-              <a>
+              < a href = 'https://github.com/zainfikrih/react-material-semantic' target='_blank' >
                 <Icon name='code' />
                 Github Repository
               </a>
             </Card.Content>
           </Card>
+
+          <Card style={{ textAlign: 'center' }}>
+            <Image src='https://react.semantic-ui.com/assets/images/avatar/large/matthew.png' />
+            <Card.Content>
+              <Card.Header>
+                React Master
+            </Card.Header>
+              <Card.Meta>
+                <span className='date'>
+                  Build in 2018
+                </span>
+              </Card.Meta>
+              <Card.Description>
+                React Boilerplat with Material UI & Semantic UI
+              </Card.Description>
+            </Card.Content>
+            <Card.Content extra>
+              < a href = 'https://github.com/zainfikrih/react-material-semantic' target='_blank' >
+                <Icon name='code' />
+                Github Repository
+              </a>
+            </Card.Content>
+          </Card>
+          </Card.Group>
+          
         </Container>
       </div>
     )

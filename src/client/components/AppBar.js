@@ -19,7 +19,7 @@ function SimpleAppBar(props) {
   } = props;
   return ( 
     <div >
-      <AppBar position = "static"
+      <AppBar position = "fixed"
         color= "primary" >
         <Toolbar >
           <Typography variant = "title"
